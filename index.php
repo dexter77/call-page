@@ -17,7 +17,7 @@
     }
 
         //Ouvrir une nouvelle connexion au serveur MySQL
-        $mysqli = new mysqli($81.88.53.15, $go4vwtd7_test1, $testtest1, $go4vwtd7_test);
+        $mysqli = new mysqli($, $go4vwtd7_test1, $testtest1, $go4vwtd7_test);
     
         //Afficher toute erreur de connexion
         if ($mysqli->connect_error) {
