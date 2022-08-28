@@ -27,7 +27,7 @@
         //préparer la requête d'insertion SQL
         $statement = $mysqli->prepare("INSERT INTO users (nom, prenom, email) VALUES(?, ?, ?)"); 
         //Associer les valeurs et exécuter la requête d'insertion
-        $statement->bind_param('ss', $nom, $prenom, $email); 
+        $statement->bind_param('ss', $name, $lastname, $email); 
         
         if($statement->execute()){
           print "Salut " . $nom . "!, votre adresse e-mail est ". $email;
