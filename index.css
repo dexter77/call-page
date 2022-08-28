@@ -1,0 +1,65 @@
+@media screen and (max-width: 800px) {
+    .corps {
+        width: 83%;
+    }
+}
+
+.logo{
+    position: relative;
+    text-align: center;
+}
+.corps{
+    display: flex;
+    width: 20%;
+    height: 50%;
+    background-color: #f1f2f6;
+    justify-content: center;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid #dfe4ea;
+    box-shadow: 0 0 2em #1e272e;
+}
+p{
+    text-align: center;
+}
+.akwaba{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form input{
+    width: 120%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -15px;
+}
+.form input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+
+}
+.form input[type="submit"]:hover{
+    background-color: #ffa502;
+}
